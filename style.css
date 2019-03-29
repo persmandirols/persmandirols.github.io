@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    /*background-color: white;*/
+}
+.estiloPrueba{
+/*    border: 2px solid orangered;*/
+    /*margin: 5px;*/
+}
+.articuloPpal{
+    filter: grayscale(100%);
+}
+.articuloSec{
+    box-sizing: border-box;
+    display: inline-block;
+ /*   filter: grayscale(100%);
+   */  
+   filter: grayscale(100%);
+}
+.textoPpal{
+  
+  /*color: rgb(185, 0, 124);*/
+  background-color:hsl(0, 0%, 100%);
+  opacity: 0.6;
+  border: 2ps solid black;
+
+}
+
+.contTexto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5em;
+    fill-opacity: initial;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*color: rgb(185, 0, 124);*/
+    color:hsl(177, 89%, 24%);
+    font-weight: bolder;
+      
+}   
+.textoCentral{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: white;
+  }
+
+
+.menu{
+    display: none;
+    list-style: none;
+}
+.bgImage{
+}
+#ppal{
+    background-image: url("/imagenes/a.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
+    /*filter: grayscale(100%);*/
+
+       
+}
+#works{
+    background-image: url("/imagenes/b.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-width: 50%;
+    
+    
+}
+#bio{
+    background-image: url("/imagenes/c.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    min-width: 50%;     
+}
+#contact{
+    background-image: url("/imagenes/d.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-width: 50%;
+    
+}
+#extra{
+    background-image: url("/imagenes/e.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-width: 50%;
+    
+}
+#textRight{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+
+    position: absolute;
+    padding: 0.5em;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(49, 207, 35);
+}
+.right{
+    float: right;
+}
+.luminoso{
+    color:hsl(120,1,1);
+  
+}
