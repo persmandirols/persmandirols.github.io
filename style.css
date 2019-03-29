@@ -64,7 +64,7 @@ body{
 .bgImage{
 }
 #ppal{
-    background-image: url("/imagenes/a.jpg");
+    background-image: url("a.jpg");
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@ body{
        
 }
 #works{
-    background-image: url("/imagenes/b.jpg");
+    background-image: url("b.jpg");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ body{
     
 }
 #bio{
-    background-image: url("/imagenes/c.jpg");
+    background-image: url("c.jpg");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ body{
     min-width: 50%;     
 }
 #contact{
-    background-image: url("/imagenes/d.jpg");
+    background-image: url("d.jpg");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ body{
     
 }
 #extra{
-    background-image: url("/imagenes/e.jpg");
+    background-image: url("e.jpg");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
